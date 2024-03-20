@@ -1,0 +1,15 @@
+import 'dart:io';
+main(){
+  final names=[
+    "raman", "raja" ,"ali"
+  ];
+  names.add("raghu");
+  print($names);
+
+
+  const Name=[
+    "raman", "raja" ,"ali"
+  ];
+  Name.add("raghu");
+  print("it will give an error as in final we ca add elements in running array but in constant we can^t add any thing");
+}
