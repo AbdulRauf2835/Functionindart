@@ -1,0 +1,38 @@
+
+void main() {
+// var hashmap={
+// "name":"abdulrauf",
+//   "age":"20",
+//   "isgraduate":"false"
+// };
+//
+// print(hashmap);
+// hashmap["name"]="rauf";
+// print(hashmap);
+  var hashmap = Map();
+  hashmap["name"] = "rauf";
+  hashmap["age"] = 32;
+  hashmap["isgraduate"] = "false";
+
+print(hashmap.isEmpty);
+  print(hashmap.isNotEmpty);
+  print(hashmap.length);
+  print(hashmap.remove("isgraduate"));
+      print(hashmap.keys);
+  print(hashmap.values);
+  print(hashmap.containsKey("name"));
+  print(hashmap.containsValue("rauf"));
+  print(hashmap);
+
+
+
+
+
+
+
+
+
+  print(hashmap);
+
+}
+
