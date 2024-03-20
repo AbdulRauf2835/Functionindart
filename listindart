@@ -1,0 +1,33 @@
+
+void main() {
+
+var list1=[10,20,30,40,50];
+list1.add(70);
+print(list1);
+var name=[];
+name.add("ali");
+name.add("ahmed");
+name.add("harry");
+name.add("waris");
+
+// name.addAll(list1);
+// name.insertAll(3, list1);
+  name[2]="rameez";
+  // list1.removeLast();
+  // list1.remove(40);
+  // list1.removeAt(2);
+  // list1.removeRange(0, 4);
+
+// print(list1);
+// print(name);
+print("length of list=${list1.length}");
+print(" Reversed list= ${list1.reversed}");
+print("first element= ${list1.first}");
+  print("last element= ${list1.last}");
+  print("isempty = ${list1.isEmpty}");
+  print("is not empty = ${list1.isNotEmpty}");
+
+
+
+
+}
