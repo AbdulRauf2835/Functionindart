@@ -1,0 +1,11 @@
+Future<NewsModel>fetchNews() async{
+  final url="https://newsapi.org/v2/everything?q=tesla&from=2024-04-19&sortBy=publishedAt&apiKey=47c82264985249cf8e3cd35f4ce791ca";
+  var response= await http.get(Uri.parse(url));
+  if(response.statusCode==200){
+  final result=jsonDecode(response.body);
+  return NewsModel.fromJson(result);
+  }
+  else{
+  return NewsModel();
+  }
+  }
